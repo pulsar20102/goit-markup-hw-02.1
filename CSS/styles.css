@@ -1,10 +1,10 @@
 :root {
     --color-secondary: #2E2F42;
     --color-primary: #434455;
-    --color-white: #ffffff;
+    --color-white: #FFFFFF;
     --color-brand: #4D5AE5;
     --color-brand-light: #F4F4FD;
-    --color-background-white: #ffffff;
+    --color-background-white: #FFFFFF;
     --color-background-dark: #2E2F42;
     --color-background-light: #F4F4FD;
     --color-background-brand: #4D5AE5;  
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--color-primary);
     font-weight: 500;
     font-size: 20px;
@@ -30,7 +30,7 @@ body {
 }
 
 .logo {
-font-family: 'Raleway', sans-serif;
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
