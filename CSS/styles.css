@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #2E2F42;
-    --color-secondary: #434455;
+    --color-secondary: #2E2F42;
+    --color-primary: #434455;
     --color-white: #ffffff;
     --color-brand: #4D5AE5;
     --color-brand-light: #F4F4FD;
@@ -41,7 +41,7 @@ text-transform: uppercase;
 }
 
 .logo-black {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .logo-white {
@@ -56,7 +56,7 @@ text-transform: uppercase;
 }
 
 .item-page {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -77,8 +77,7 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-secondary);
-}
+    }
 
 .contact:hover,
 .contact:focus {
@@ -130,10 +129,10 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color:var(--color-secondary)
 }
 
 .features-text {
-    color: var(--color-secondary);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -149,16 +148,17 @@ text-transform: uppercase;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    color: var(--color-secondary);
 }
 
 .name-worker {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--color-secondary);
 }
 
 .profession {
-    color: var(--color-secondary);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -191,12 +191,13 @@ text-transform: uppercase;
 .application {
     font-size: 20px;
     line-height: 1.2;
+    color: var(--color-secondary);
 }
 
 .kind-work {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: var(--color-secondary);
+
 }
 
