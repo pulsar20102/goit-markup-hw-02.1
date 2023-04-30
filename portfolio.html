@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./сss/styles.css" />
+    <title>Studio</title>
   </head>
   <body>
     <!--Page header-->
@@ -22,15 +22,15 @@
         >
         <ul class="list">
           <li>
-            <a class="link item-page" href="./index.html" target="_blank"
+            <a
+              class="link item-page current"
+              href="./index.html"
+              target="_blank"
               >Studio</a
             >
           </li>
           <li>
-            <a
-              class="link item-page current"
-              href="./portfolio.html"
-              target="_blank"
+            <a class="link item-page" href="./portfolio.html" target="_blank"
               >Portfolio</a
             >
           </li>
@@ -55,124 +55,124 @@
         </ul>
       </address>
     </header>
-    <!-- Main -->
+
+    <!--Page main-->
     <main>
-      <!-- Filters -->
+      <!--Hero-->
+      <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
+      </section>
+      <!--Advantages-->
       <section>
-        <h1 hidden>Filters</h1>
+        <h2 hidden>Advantages</h2>
         <ul class="list">
-          <li><button class="button-filter" type="button">All</button></li>
-          <li><button class="button-filter" type="button">Web Site</button></li>
-          <li><button class="button-filter" type="button">App</button></li>
-          <li><button class="button-filter" type="button">Design</button></li>
           <li>
-            <button class="button-filter" type="button">Marketing</button>
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
           </li>
         </ul>
-        <div>
-          <ul class="list">
-            <li>
-              <img
-                src="./images/banking.jpg"
-                alt="banking app"
-                width="360"
-                height="300"
-              />
+      </section>
 
-              <h2 class="application">Banking App Interface Concept</h2>
-              <p class="kind-work">App</p>
-            </li>
-            <li class="list">
-              <img
-                src="./images/cashless-payment.jpg"
-                alt="cashless app"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Cashless Payment</h2>
-              <p class="kind-work">Marketing</p>
-            </li>
-            <li class="list">
-              <img
-                src="./images/meditation.jpg"
-                alt="meditation app"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Meditation App</h2>
-              <p class="kind-work">App</p>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <ul class="list">
-            <li>
-              <img
-                src="./images/taxi-service.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Taxi Service</h2>
-              <p class="kind-work">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/screen-illustrations.jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Screen Illustrations</h2>
-              <p class="kind-work">Design</p>
-            </li>
-            <li>
-              <img
-                src="./images/online-courses.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Online Courses</h2>
-              <p class="kind-work">Marketing</p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="list">
-            <li>
-              <img
-                src="./images/instagram-stories-concept.jpg"
-                alt="Instagram Stories Concept"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Instagram Stories Concept</h2>
-              <p class="kind-work">Design</p>
-            </li>
-            <li>
-              <img
-                src="./images/organic-food.jpg"
-                alt="Organic Food"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Organic Food</h2>
-              <p class="kind-work">Web Site</p>
-            </li>
-            <li>
-              <img
-                src="./images/fresh-coffee.jpg"
-                alt="Fresh Coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="application">Fresh Coffee</h2>
-              <p class="kind-work">Web Site</p>
-            </li>
-          </ul>
-        </div>
+      <!--What are we doing-->
+      <section>
+        <h2 class="work-title">What are we doing</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/computer.jpg"
+              alt="Desctop app"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/mobile-phones.jpg"
+              alt="Mobile app"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/gadgets.jpg"
+              alt="Design solutions"
+              width="360"
+              height="300"
+            />
+          </li>
+        </ul>
+      </section>
+      <!--Our Team-->
+      <section class="our-team">
+        <h2 class="our-team-title">Our Team</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/mark-guerrero.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
+            <h3 class="name-worker">Mark Guerrero</h3>
+            <p class="profession">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/tom-ford.jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
+            <h3 class="name-worker">Tom Ford</h3>
+            <p class="profession">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/camila-garcia.jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
+            <h3 class="name-worker">Camila Garcia</h3>
+            <p class="profession">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/daniel-wilson.jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
+            <h3 class="name-worker">Daniel Wilson</h3>
+            <p class="profession">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
